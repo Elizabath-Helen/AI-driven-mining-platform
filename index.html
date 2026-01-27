@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="project1.css">
        
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        
 
     </head>
     <body>
@@ -23,7 +24,7 @@
             </nav>
             <div class="buttons">
                 <button class="demobtn">Request Demo</button>
-                <button class="loginbtn">Log In</button>
+                <button class="loginbtn" onclick="goToRegister()">Log In</button>
             </div>
         </header>
 
@@ -48,21 +49,22 @@
         <section class="footer">
             <div class="footers">
                 <h6>ACTIVE SITES</h6>
-                <h3>50+</h3>
+                <h3 class="counter">50+</h3>
             </div>
             <div class="footers">
                 <h6>EQUIPMENT UPTIME</h6>
-                <h3 id="highlight">99.9%</h3>
+                <h3 id="highlight" class="counter">99.9%</h3>
             </div>
             <div class="footers">
                 <h6>SAFETY RATING</h6>
-                <h3>100%</h3>
+                <h3 class="counter">100%</h3>
             </div>
             <div class="footers">
                 <h6>DATA POINTS/DAY</h6>
-                <h3>2M+</h3>
+                <h3 class="counter">2M+</h3>
             </div>
         </section>
+        <script src="script.js"></script>
 
     </body>
 </html>
